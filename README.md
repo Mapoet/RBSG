@@ -57,11 +57,8 @@ $$
 2. **构造 Vandermonde 矩阵**  
    $\mathbf J_{i,j}=z_i^{\,j-1}$，尺寸 $m\times(k+1)$。  
 3. **最小二乘解**  
-   解正规方程  
-   
-   \[
-   \mathbf a = (\mathbf J^T\mathbf J)^{-1}\mathbf J^T\mathbf y,
-   \]
+   解正规方程 
+   $\mathbf a = (\mathbf J^T\mathbf J)^{-1}\mathbf J^T\mathbf y$。
 
 得到多项式系数向量 $\mathbf a\in\mathbb R^{k+1}$ ([Wikipedia][1])。
 
