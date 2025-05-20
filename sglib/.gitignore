@@ -1,0 +1,80 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.mod
+*.smod
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module dependencies
+*.d
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.x
+
+# Build directories
+build/
+lib/
+
+# Generated data files
+*.dat
+*.csv
+*.txt
+!requirements.txt
+!CMakeLists.txt
+
+# Editor files
+*~
+.*.swp
+.*.swo
+.vscode/
+.idea/
+*.sublime-*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Python-related files (for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+.coverage
+htmlcov/
+
+# Log files
+*.log
+
+# User-specific configurations
+CMakeUserPresets.json
+
+# Debug files
+core
+core.* 
