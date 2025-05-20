@@ -48,11 +48,12 @@ $$
 
 $$
 Y_j = \frac{1}{35}\bigl(-3\,y_{j-2} + 12\,y_{j-1} + 17\,y_j + 12\,y_{j+1} -3\,y_{j+2}\bigr)
-$$。
+$$
+
 
 ##### 1.2.2 多项式拟合与系数推导  
 1. **变量变换**  
-   引入局部坐标 \(z=(x-\bar x)/h\)，中心点 \(\bar x=x_j\)，则 \(z_i\in\{-\tfrac{m-1}{2},\dots,0,\dots,\tfrac{m-1}{2}\}\) :contentReference[oaicite:3]{index=3}。  
+   引入局部坐标 \(z=(x-\bar x)/h\)，中心点 \(\bar x=x_j\)，则 \(z_i\in\{-\tfrac{m-1}{2},\dots,0,\dots,\tfrac{m-1}{2}\}\)。  
 2. **构造 Vandermonde 矩阵**  
    \(\mathbf J_{i,j}=z_i^{\,j-1}\)，尺寸 \(m\times(k+1)\) :contentReference[oaicite:4]{index=4}。  
 3. **最小二乘解**  
