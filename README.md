@@ -53,16 +53,18 @@ $$
 
 ##### 1.2.2 多项式拟合与系数推导  
 1. **变量变换**  
-   引入局部坐标 \(z=(x-\bar x)/h\)，中心点 \(\bar x=x_j\)，则 \(z_i\in\{-\tfrac{m-1}{2},\dots,0,\dots,\tfrac{m-1}{2}\}\)。  
+   引入局部坐标 $z=(x-\bar x)/h$，中心点 $\bar x=x_j$，则 $z_i\in\{-\tfrac{m-1}{2},\dots,0,\dots,\tfrac{m-1}{2}\}$。  
 2. **构造 Vandermonde 矩阵**  
-   \(\mathbf J_{i,j}=z_i^{\,j-1}\)，尺寸 \(m\times(k+1)\) :contentReference[oaicite:4]{index=4}。  
+   $\mathbf J_{i,j}=z_i^{\,j-1}$，尺寸 $m\times(k+1)$。  
 3. **最小二乘解**  
    解正规方程  
+   
    $$
    \mathbf a = (\mathbf J^T\mathbf J)^{-1}\mathbf J^T\mathbf y,
    $$
 
 得到多项式系数向量 $\mathbf a\in\mathbb R^{k+1}$ ([Wikipedia][1])。
+
 4\. **计算卷积权重**
 对每个窗口位置 $z_i$，权重
 
